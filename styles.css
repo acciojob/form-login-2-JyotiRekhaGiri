@@ -1,1 +1,26 @@
 /*  your css code here. If applicable */
+form{
+	width: 300px;
+	padding: 20px;
+	margin: 0 auto;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0,0,0, 0.1);
+	background-color: #ffff;
+}
+
+label{
+	display: inline-block;
+	margin-bottom: 8px;
+	text-align: left;
+}
+
+input{
+	margin-bottom: 12px;
+	padding: 8px;
+	width: calc(100%-16px);
+	box-sizing: border-box;
+}
+
+button{
+	cursor: pointer;
+}
